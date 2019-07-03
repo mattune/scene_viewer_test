@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    <model-viewer id="sceneViewer" src="assets/model/mattune.glb" auto-rotate camera-controls ar shadow-intensity="2" camera-orbit="125deg 75deg 2.5m"></model-viewer>
+    <model-viewer id="sceneViewer" src="assets/model/mattune.glb" auto-rotate camera-controls ar shadow-intensity="2" camera-orbit="125deg 75deg"></model-viewer>
   </div>
 </template>
 

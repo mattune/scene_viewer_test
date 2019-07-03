@@ -1,14 +1,6 @@
 <template>
   <div id="app">
-    <!-- <header>
-      <ul>
-        <li><router-link to="/">Go to home</router-link></li>
-        <li><router-link to="/poly">Go to Poly</router-link></li>
-      </ul>
-    </header> -->
-
     <router-view/>
-
   </div>
 </template>
 

@@ -1,29 +1,11 @@
-# scene_viewer
+# AR CoreのScene Viewerを使ってブラウザAR
 
-## Project setup
-```
-npm install
-```
+専用のwebコンポーネント<model-viewer>を使えば簡単！  
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+[DEMO](https://mattune.github.io/scene_viewer_test/)  
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Poly APIを使えば世界中の3Dモデルも簡単にWeb AR！
+[Poly](https://poly.google.com/) にはAPIが公開されているので、GLTF2.0形式のファイルは簡単に<model-viewer>で表示できる。  
+APIの使い方は[このページ](https://developers.google.com/poly/develop/web)を見ればだいたい分かる。
+  
+[DEMO](https://mattune.github.io/scene_viewer_test/poly)  
