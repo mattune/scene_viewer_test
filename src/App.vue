@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style lang="scss">
+html,body { height:100%; }
+
 header {
   position: fixed; top: 0; left: 0;
   z-index: 999;
