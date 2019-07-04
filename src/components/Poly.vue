@@ -180,6 +180,7 @@ export default {
   justify-content: space-between;
 
   #query {
+    background-color: #fff;
     border-radius: 5px;
     border: 1px solid #ccc;
     width: calc(100% - 115px);
