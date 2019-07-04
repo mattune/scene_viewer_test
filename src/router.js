@@ -7,7 +7,7 @@ import Poly from '@/components/Poly';
 Vue.use(VueRouter);
 
 var router = new VueRouter({
-  mode: 'history',
+  // mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     // URLパスに対応するコンポーネントを定義
