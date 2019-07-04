@@ -45,7 +45,7 @@ export default {
   },
   methods: {
     searchPoly(keywords, onLoad){
-      var url = `https://poly.googleapis.com/v1/assets?pageSize=21&keywords=${keywords}&format=OBJ&key=${API_KEY}`;
+      var url = `https://poly.googleapis.com/v1/assets?pageSize=21&keywords=${keywords}&format=GLTF2&key=${API_KEY}`;
 
       var request = new XMLHttpRequest();
       request.open( 'GET', url, true );
