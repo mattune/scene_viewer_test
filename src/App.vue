@@ -4,6 +4,7 @@
       <ul>
         <router-link tag="li" to="/"><a>Top</a></router-link>
         <router-link tag="li" to="/poly"><a>Poly DEMO</a></router-link>
+        <router-link tag="li" to="/anatome"><a>Anatome DEMO</a></router-link>
       </ul>
     </header>
 

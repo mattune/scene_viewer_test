@@ -5,6 +5,8 @@ import 'formula-css/develop/formula.scss'; // 共通のリセットCSSを読み�
 import router from './router.js';
 import axios from 'axios';
 
+axios.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
+
 Vue.config.productionTip = false;
 Vue.prototype.$axios = axios;
 

@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 
 import Top from '@/components/Top';
 import Poly from '@/components/Poly';
+import Anatome from '@/components/Anatome';
 
 Vue.use(VueRouter);
 
@@ -20,6 +21,11 @@ var router = new VueRouter({
       path: '/poly',
       name: 'Poly',
       component: Poly
+    },
+    {
+      path: '/anatome',
+      name: 'Anatome',
+      component: Anatome
     }
   ]
 });
